@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" type="text/css" href="css_table.css">
+	</head>
+    <body>
+	<h1>Comparison of our  approach for extracting features</h1>
+	  <table style="width:100%">
+	     <tr>
+		   <th>Approach for training</th>
+		   <th> SqueezeNet</th>
+		   <th> GoogLeNet</th>
+		   <th> ResNet-50</th>
+		 </tr>
+		 <tr>
+		 <td>CNN without noise</td>
+		 <td>91.25%</td>
+		 <td>88%</td>
+		 <td>93%</td>
+		 </tr>
+		 <tr>
+		 <td>CNN with Gaussian noise</td>
+		 <td>90.33%</td>
+		 <td>93.33%</td>
+		 <td>94.17%</td>
+		 </tr>
+		  <tr>
+		 <td>CNN with Poisson noise</td>
+		 <td>97.50%</td>
+		 <td>99.17%</td>
+		 <td>99.17%</td>
+		 </tr>
+		</table>
+		
+		</body>
+</html>	
